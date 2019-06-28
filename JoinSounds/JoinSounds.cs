@@ -133,17 +133,7 @@ namespace JoinSounds
 
         bool JoinSoundsGenericCommand(IcPlayer player, string command, IDATokenClass text, TextMessageEnum chatType, object data)
         {
-            int Size = text.Size; //Had to use like that cuz of a RenSharp problem :/P/PP
-            DA.HostMessage($"Text Size is {Size}");
-            for (int i = 0; i < Size + 1; i++)
-            {
-                try
-                {
-                    DA.HostMessage(text[i]);
-                }
-                catch(Exception)
-                { }
-            }
+            int Size = text.Size; //Had to use like that cuz it is not a RenSharp problem :/P/PP
             if (text[1].ToLower() == "set" || text[1].ToLower() == "change")
             {
                 if (Size > 1)
