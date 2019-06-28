@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinSounds", "JoinSounds.csproj", "{47247FE7-6B43-49F3-AC93-E7B8330ACA3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinSounds", "JoinSounds/JoinSounds.csproj", "{47247FE7-6B43-49F3-AC93-E7B8330ACA3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
