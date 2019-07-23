@@ -65,7 +65,7 @@ namespace JoinSounds
                         MinDelay = (float)Convert.ToDouble(entry.Value.Replace(".", ","));
                         break;
                     case "DisableList":
-                        DA.HostMessage(entry.Value);
+                        //DA.HostMessage(entry.Value);
                         DisableList = entry.Value.Split('|').ToList();
                         break;
                     case "AdminLevel":
